@@ -36,9 +36,9 @@ A dashboard displaying the 6-month progress of a random user..
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/React-Barchart-Dashboard-Overview)
 
-* [Hosted Link]()
+* [Hosted Link](https://react-barchart-dashboard.netlify.app)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
