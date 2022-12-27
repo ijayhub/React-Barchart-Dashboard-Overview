@@ -1,6 +1,6 @@
 <div id="top"></div>
 <div align="center">
-    <img src="./src/assets/cocktail.png">
+    <img src="./src/image/overview.png">
 </div>
 <h1  align="center" >React Barchart Dashboard Overview</h1>
 <!-- TABLE OF CONTENTS -->
