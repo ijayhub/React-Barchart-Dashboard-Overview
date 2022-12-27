@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color:#f0f6fc;
+	
+}
+.max-width{
+	@apply max-w-7xl mx-auto 
+
+}
+h1,h2,h3,h4,h5,h6{
+	@apply font-bold text-slate-800;
+}
+h1{
+	@apply text-xl lg:text-4xl py-8 pt-10 md:mx-3 lg:mx-0 hover:text-emerald-400 ;
+}
+.overview-card{
+	@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-3 lg:mx-0;
+}
+.navbar{
+	@apply fixed -left-full transition duration-200 lg:relative lg:left-0;
+}
+.navbar.open{
+	@apply left-0 bg-black bg-opacity-50 text-white pr-10  w-2/3 z-30 h-full flex items-center justify-center shadow-2xl lg:w-auto lg:z-auto lg:h-auto lg:px-0 lg:pt-0 lg:shadow-none
+}
+
+.apps{
+	@apply grid grid-cols-1 md:grid-cols-2  bg-white  ;
+}
+.apps-margin{
+	margin:10px;
+}
+.ul{
+	@apply flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-8 bg-white p-5;
+}
+.li{
+	@apply shadow-2xl hover:bg-blue-600 hover:text-white p-4 rounded-xl font-bold;
+}
+
+@media only screen and (max-width:600px){
+	.marginTop{
+		@apply mt-16 mb-8
+	}
+	.apps{
+		@apply mx-2 mb-8 ;
+	}
+
+}
