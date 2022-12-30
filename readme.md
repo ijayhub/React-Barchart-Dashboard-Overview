@@ -45,11 +45,6 @@ A dashboard displaying the 6-month progress of a random user..
 
 ### Built With
 
-* [React](https://reactjs.org/)
-
-* [Tailwind css](https://tailwindcss.com/)
-
-* [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 
 * [Unsplash API](https://unsplash.com)
 
@@ -82,7 +77,14 @@ You may also see any lint errors in the console.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Dependencies
-[npm react-router-dom@6](https://reactrouter.com/docs/en/v6/getting-started/installation)
+* [npm react-router-dom@6](https://reactrouter.com/docs/en/v6/getting-started/installation)
+
+* [React](https://reactjs.org/)
+
+* [Tailwind css](https://tailwindcss.com/)
+
+* [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
