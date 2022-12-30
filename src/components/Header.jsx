@@ -49,7 +49,7 @@ const Header = () => {
 
 	return (
 		<>
-			<header className='bg-none lg:bg-white shadow-lg'>
+			<header className='bg-none lg:bg-white shadow-lg '>
 				<button
 					onClick={() => setIsOpen(!isOpen)}
 					className='fixed z-50 top-5 left-5 text-2xl lg:hidden'>
@@ -57,7 +57,7 @@ const Header = () => {
 				</button>
 				<nav className={`navbar ${isOpen && 'open'}`}>
 					<div className='flex items-center justify-between p-3'>
-						<h2 className='invisible lg:visible'>Client Dashboard</h2>
+						<h2 className='invisible lg:visible' >Client Dashboard</h2>
 						<img
 							src={profile}
 							alt=' profile'
@@ -67,8 +67,8 @@ const Header = () => {
 					<hr />
 					<ul className='flex flex-col lg:flex-row items-center justify-center gap-8 p-2'>
 						{navs.map((nav, index) => (
-							<li key={index} className='active:text-emerald-600'>
-								<NavLink className='flex items-center gap-2 ' to={nav.link}>
+							<li key={index} className='active:text-emerald-600 hover:font-bold'>
+								<NavLink className='flex items-center gap-2 ' to={nav.link} onClick={()=>setIsOpen(false)}>
 									{nav.icon} {nav.title}
 								</NavLink>
 							</li>

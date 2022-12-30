@@ -4,8 +4,8 @@ import React from 'react';
 const Appslist = ({ apps, title }) => {
 	return (
 		<div className='max-width pt-10'>
-			<h2 className='py-10 font-bold ml-2 lg:ml-0'>{title}</h2>
-			<div className='apps apps'>
+			<h2 className='app-title'>{title}</h2>
+			<div className='apps'>
 				{apps.map((app) => (
 					<a href={app.link} target='_self' key={app.id}>
 						<div className='flex items-center p-5'>

@@ -32,19 +32,45 @@ h1{
 .navbar.open{
 	@apply left-0 bg-black bg-opacity-50 text-white pr-10  w-2/3 z-30 h-full flex items-center justify-center shadow-2xl lg:w-auto lg:z-auto lg:h-auto lg:px-0 lg:pt-0 lg:shadow-none
 }
+.document-container{
+	@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4
+}
+.document-container-list{
+	@apply shadow-2xl p-8 rounded-2xl hover:bg-emerald-300 mx-3 lg:mx-0
+}
+.project-title{
+	@apply lg:text-3xl font-bold hover:text-emerald-400 my-10 mx-5 lg:mx-0
+}
+.project-container{
+	@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8
+}
+.asset-title{
+	@apply lg:text-3xl hover:text-emerald-400 lg:my-10 marginTop md:mb-10 text-lg mx-3
+}
+.asset-container{
+	@apply grid gap-10 max-width grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+}
+.asset-subcontainer{
+	@apply bg-white rounded-xl shadow-2xl mx-2 
+}
+.asset-user{
+	@apply font-bold ml-6 lg:text-2xl text-emerald-800
+}
 
 .apps{
 	@apply grid grid-cols-1 md:grid-cols-2  bg-white  ;
 }
-.apps-margin{
-	margin:10px;
+.app-title{
+	@apply py-10 font-bold ml-2 lg:ml-0 lg:text-lg
 }
+
 .ul{
 	@apply flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-8 bg-white p-5;
 }
 .li{
 	@apply shadow-2xl hover:bg-blue-600 hover:text-white p-4 rounded-xl font-bold;
 }
+
 
 @media only screen and (max-width:600px){
 	.marginTop{

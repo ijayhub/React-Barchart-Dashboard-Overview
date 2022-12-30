@@ -5,7 +5,7 @@ import Define from '../pages/Define';
 
 const Prototypinglist = () => {
   return (
-		<div>
+		<div className='mx-2 lg:mx-0'>
 			<Progresslist />
 			<div className='mt-10'>
 				<Title title='Prototyping' date='Launch date: 17th July' />

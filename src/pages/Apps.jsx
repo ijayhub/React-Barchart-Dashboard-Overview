@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Appslist from '../share/Appslist'
-import { IoAnalyticsOutline } from 'react-icons/io5';
+import { IoBusinessOutline } from 'react-icons/io5';
 import { FaHotjar } from 'react-icons/fa';
 import { SiNamecheap } from 'react-icons/si';
-import { BsChatLeftText } from "react-icons/bs";
+import { AiOutlineSlack } from 'react-icons/ai';
 
 
 
@@ -11,9 +11,9 @@ const App = () => {
   const [apps] = useState([
 		{
 			id: 1,
-			icon: <IoAnalyticsOutline className='text-red-800' />,
-			title: 'Google Analytics',
-			paragraph: 'All in one site analytics',
+			icon: <IoBusinessOutline className='text-red-800' />,
+			title: 'Business Analytics',
+			paragraph: 'All in one company analytics',
 			link: 'https://analytics.google.com/analytics/web/provision/#/provision',
 		},
 		{
@@ -32,10 +32,10 @@ const App = () => {
 		},
 		{
 			id: 4,
-			icon: <BsChatLeftText className='text-red-800' />,
+			icon: <AiOutlineSlack className='text-red-800' />,
 			title: 'Chat',
 			paragraph: 'Custom support using modern messaging',
-			link: 'https://twitter.com/',
+			link: 'https://slack.com/',
 		},
 	]);
 	return (

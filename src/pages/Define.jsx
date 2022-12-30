@@ -5,10 +5,10 @@ import { data } from '../progress'
 const Define = () => {
     const [defines]=useState(data)
   return (
-      <div>
-          
+		<div>
+		
 			{defines.map((define) => (
-				<div key={define.id} className='flex flex-col rounded-xl'>
+				<div key={define.id} className='flex flex-col rounded-xl mx-1 lg:mx-0'>
 					<div className='bg-white p-5 shadow-xl mb-1 '>
 						<h2 className='font-bold pb-2'>{define.questionA}</h2>
 						<p className=''>{define.answerA}</p>

@@ -53,13 +53,13 @@ const Documents = () => {
 	return (
 		<div className='max-width py-10'>
 			<div>
-				<h2 className='lg:text-3xl my-10 mx-3 lg:mx-0'>Documents</h2>
+				<h1 className='lg:text-3xl my-10 mx-3 lg:mx-0'>Documents</h1>
 			</div>
-			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+			<div className='document-container'>
 				{documents.map((document) => (
 					<div
 						key={document.id}
-						className='shadow-2xl p-8 rounded-2xl hover:bg-emerald-300 mx-3 lg:mx-0'>
+						className='document-container-list'>
 						<div className='text-4xl'>{document.icon}</div>
 						<h2 className='my-8'>{document.title}</h2>
 						<p>{document.paragraph}</p>

@@ -4,11 +4,11 @@ const Photolist = ({photos, title}) => {
 	return (
 		<section className="max-width ">
 			<div>
-				<h2 className="lg:text-3xl hover:text-emerald-400 lg:my-10 marginTop md:mb-10 text-lg mx-3">{title}</h2>
+				<h1 className="asset-title">{title}</h1>
 			</div>
-			<div className='grid gap-10 max-width grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+			<div className='asset-container'>
 			{photos.map((photo) => (
-				<div key={photo.id} className='bg-white rounded-xl shadow-2xl mx-2'>
+				<div key={photo.id} className='asset-subcontainer'>
 					<img
 						src={photo.urls.full}
 						alt={photo.alt_description}
@@ -22,7 +22,7 @@ const Photolist = ({photos, title}) => {
 							lazy='loading'
 							className='w-20 rounded-full'
 						/>
-						<h2 className='font-bold ml-6 lg:text-2xl text-emerald-800'>{photo.user.name}</h2>
+						<h2 className='asset-user'>{photo.user.name}</h2>
                     </div>
                     
 				</div>

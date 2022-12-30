@@ -5,14 +5,14 @@ import Define from '../pages/Define';
 
 const Testinglist = () => {
     return (
-		<div>
-			<Progresslist />
-			<div className='mt-10'>
-				<Title title='Testing' date='Launch date: 17th July' />
-				<Define />
+			<div className='mx-2 lg:mx-0'>
+				<Progresslist />
+				<div className='mt-10'>
+					<Title title='Testing' date='Launch date: 17th July' />
+					<Define />
+				</div>
 			</div>
-		</div>
-	);
+		);
 }
 
 export default Testinglist

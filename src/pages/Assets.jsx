@@ -16,9 +16,8 @@ const Assets = () => {
 
   },[])
   return (
-    <div className="pt-20">
-      <Photolist photos={photos} title="Assets"/>
-
+    <div>
+      <Photolist photos={photos} title="Assets" />
     </div>
   )
 }
