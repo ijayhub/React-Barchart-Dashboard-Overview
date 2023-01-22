@@ -4,6 +4,7 @@ import { IoBusinessOutline } from 'react-icons/io5';
 import { FaHotjar } from 'react-icons/fa';
 import { SiNamecheap } from 'react-icons/si';
 import { AiOutlineSlack } from 'react-icons/ai';
+import { TbChartDots3 } from 'react-icons/tb';
 
 
 
@@ -36,6 +37,14 @@ const App = () => {
 			title: 'Chat',
 			paragraph: 'Custom support using modern messaging',
 			link: 'https://slack.com/',
+		},
+		{
+			id: 4,
+			icon: <TbChartDots3 className='text-blue-800' />,
+			title: 'Data structure and algorithm',
+			paragraph:
+				'To learn about data structure and algorithm with ease.',
+			link: 'https://algolab.so/p/algorithms-and-data-structure-video-course?affcode=1413380_fem8kl8y',
 		},
 	]);
 	return (

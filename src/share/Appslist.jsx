@@ -3,7 +3,7 @@ import React from 'react';
 
 const Appslist = ({ apps, title }) => {
 	return (
-		<div className='max-width pt-10'>
+		<div className='max-width pt-10 '>
 			<h2 className='app-title'>{title}</h2>
 			<div className='apps'>
 				{apps.map((app) => (
@@ -15,7 +15,8 @@ const Appslist = ({ apps, title }) => {
 								<p>{app.paragraph}</p>
 							</div>
 						</div>
-					</a>
+					</a> 
+					
 				))}
 			</div>
 		</div>
